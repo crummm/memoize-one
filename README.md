@@ -214,19 +214,3 @@ console.log(value1 === value3);
 ### Extremely fast
 
 `memoize-one` performs better or on par with than other popular memoization libraries for the purpose of remembering the latest invocation.
-
-**Results**
-
-- [simple arguments](https://www.measurethat.net/Benchmarks/ShowResult/4452)
-- [complex arguments](https://www.measurethat.net/Benchmarks/ShowResult/4488)
-
-The comparisons are not exhaustive and are primarily to show that `memoize-one` accomplishes remembering the latest invocation really fast. The benchmarks do not take into account the differences in feature sets, library sizes, parse time, and so on.
-
-## Code health :thumbsup:
-
-- Tested with all built in [JavaScript types](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20%26%20grammar/ch1.md).
-- 100% code coverage
-- [Continuous integration](https://travis-ci.org/alexreardon/memoize-one) to run tests and type checks.
-- [`Flow` types](http://flowtype.org) for safer internal execution and external consumption. Also allows for editor autocompletion.
-- Follows [Semantic versioning (2.0)](http://semver.org/) for safer consumption.
-- No dependencies
